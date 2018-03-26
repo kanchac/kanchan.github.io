@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button</title>     
+</head>
+<body>
+
+<h2>BUTTONS</h2>
+<button type="button1" onclick="changeImage('black.jpeg')">BLACK</button>
+<button type="button2" onclick="changeImage('gold.jpeg')"> GOLD</button>
+<button type="butto3" onclick="changeImage('blue.jpeg')">BLUE</button>
+<button type="button4" onclick="changeImage('rose-gold.jpeg')">ROSE-GOLD</button>
+<img id= "imgDisp" src="black.jpeg" />
+
+
+
+<script> 
+function changeImage(imgName)
+{
+	image=document.getElementById("imgDisp");
+	image.src = imgName;
+}
+</script>
+
+<style>
+background-color: #C0C0C0;
+font-family: sans-serif;
+</style>
+
+</body>
+</html>
